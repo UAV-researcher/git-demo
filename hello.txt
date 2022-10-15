@@ -1,4 +1,4 @@
-尼玛的骚逼:
+
 conda env list
 for(int i = 0;i < arr.length;i++){
 	arr[i] = (int)(Math.random*20 +1);
@@ -14,7 +14,4 @@ conda env list
 conda env list
 vim Pickle.pkl
 BinaryTree
-哈哈小美人
-尼玛被搞死了
-操你老娘呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵你妈隔壁
-
+宝贝你今天真美
