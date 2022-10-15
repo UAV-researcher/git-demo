@@ -1,17 +1,29 @@
-
-conda env list
-for(int i = 0;i < arr.length;i++){
-	arr[i] = (int)(Math.random*20 +1);
-}
-
-conda env list
-conda env list
-conda env list
-conda env list
-conda env list
-conda env list
-conda env list
-conda env list
-vim Pickle.pkl
-BinaryTree
-宝贝你今天真美
+//堆排序
+//建立大根堆
+ public static void BuildMaxHeap(int[] arr, int len){
+ 	for(int i = len/2; i>0; i--){
+		HeadAdjust(arr,i,len);
+	}
+ }
+ public static void HeadAdjust(int[] arr, int k, int len){
+ 	arr[0] = arr[k];
+	for(int i =2*k; i <= len; i*=2){
+		if(i < len && arr[i] < arr[i+1){
+			i++;
+		}
+		if(arr[0] >= arr[i]){
+			break;
+		}else{
+			arr[k] = arr[i];
+			k = i;
+		}
+	}
+ 	arr[k] = arr[0];
+ }
+ public static void HeapSort(int[] arr, int len){
+ 	BuildMaxHeap(arr, len);
+	for(int i = len; i > 1;i++){
+		int t = arr[i]; arr[i] = arr[1]; arr[1] = t;
+		HeadAdjust(arr, 1 ,i - 1);
+	}
+ }
