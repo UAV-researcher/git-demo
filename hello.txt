@@ -1,0 +1,16 @@
+尼玛的骚逼:
+conda env list
+for(int i = 0;i < arr.length;i++){
+	arr[i] = (int)(Math.random*20 +1);
+}
+
+conda env list
+conda env list
+conda env list
+conda env list
+conda env list
+conda env list
+conda env list
+conda env list
+vim Pickle.pkl
+
